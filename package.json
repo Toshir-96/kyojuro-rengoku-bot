@@ -4,6 +4,7 @@
   "description": "Simple Discord Chat Bot",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "node ./index.js"
   },
   "repository": {
