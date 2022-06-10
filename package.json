@@ -1,0 +1,25 @@
+{
+  "name": "kyojuro-rengoku",
+  "version": "1.0.0",
+  "description": "Simple Discord Chat Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshir-96/kyojuro-rengoku-bot.com.git"
+  },
+  "author": "Shravanth.M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toshir-96/kyojuro-rengoku-bot.com/issues"
+  },
+  "homepage": "https://github.com/toshir-96/kyojuro-rengoku-bot.com#readme",
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "smartestchatbot": "^2.0.3"
+  }
+}
