@@ -1,5 +1,4 @@
 const { Client } = require("discord.js");
-const keepAlive = require("./server")
 require('dotenv').config();
 const client = new Client({
   intents: ["GUILDS", "GUILD_MESSAGES", "DIRECT_MESSAGES"],
@@ -43,5 +42,4 @@ client.on("messageCreate", async (message) => {
       message.reply({ content: reply, allowedMentions: { repliedUser: true } });
     });
 });
-keepAlive();
 client.login(process.env.TOKEN); //login using the token
